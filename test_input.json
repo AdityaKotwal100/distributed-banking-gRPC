@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "type": "customer",
+        "events": [
+            {
+                "id": 2,
+                "interface": "query"
+            },
+            {
+                "id": 3,
+                "interface": "withdraw",
+                "money": 10
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "type": "customer",
+        "events": [
+            {
+                "id": 4,
+                "interface": "query"
+            },
+            {
+                "id": 3,
+                "interface": "withdraw",
+                "money": 10
+            },
+            {
+                "id": 4,
+                "interface": "query"
+            },
+            {
+                "id": 3,
+                "interface": "deposit",
+                "money": 10
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "type": "customer",
+        "events": [
+            {
+                "id": 4,
+                "interface": "query"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "type": "branch",
+        "balance": 400
+    },
+    {
+        "id": 2,
+        "type": "branch",
+        "balance": 400
+    },
+    {
+        "id": 3,
+        "type": "branch",
+        "balance": 400
+    }
+]
