@@ -1,3 +1,10 @@
+# gRPC Distributed Banking System
+
+## Overview
+
+This project develops a distributed banking system utilizing gRPC for communication between customer and branch processes. The system manages money transactions such as deposits and withdrawals across multiple bank branches, ensuring consistency across replicas of account balances. Each customer interacts with a specific branch, identified by a unique ID, to perform transactions on a shared bank account, without concurrent updates. This setup uses Python and gRPC technology to facilitate RPC communication for transaction requests and propagation of updates across branch replicas.
+
+
 Installation Steps:
 
 1. Install Python 3.11.X
